@@ -1,0 +1,16 @@
+export const color = '#9f3dff'
+export const gray100 = '#fafbfc'
+export const gray200 = '#f1f4f7'
+export const gray300 = '#ccc'
+export const white = '#fff'
+export const black = '#000'
+export const gray400 = '#333333'
+export const white100 = '#ffffff50'
+export const black100 = '#000000'
+export const black200 = '#00000040'
+export const black300 = '#00000077'
+export const black400 = '#000000aa'
+export const border = '#e0e0e0'
+export const toolbarHeight = 40
+export const leftbarWidth = 40
+export const rightpaneWidth = 220

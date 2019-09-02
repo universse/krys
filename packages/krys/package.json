@@ -1,0 +1,74 @@
+{
+  "name": "krys",
+  "author": "Phuoc",
+  "description": "test",
+  "version": "0.1.0",
+  "private": true,
+  "build": {
+    "appId": "com.example.electron-cra",
+    "directories": {
+      "buildResources": "resources"
+    }
+  },
+  "dependencies": {
+    "@redux-offline/redux-offline": "^2.4.0",
+    "chroma-js": "^1.4.0",
+    "cssesc": "^2.0.0",
+    "dompurify": "^1.0.8",
+    "downshift": "^2.2.3",
+    "electron-is-dev": "^1.0.1",
+    "emotion": "^9.2.12",
+    "faker": "^4.1.0",
+    "formik": "^1.3.1",
+    "localforage": "^1.7.2",
+    "nanoid": "^1.2.6",
+    "prettier": "^1.14.3",
+    "prop-types": "^15.6.1",
+    "prop-types-extra": "^1.1.0",
+    "react": "^16.5.2",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.12",
+    "react-loadable": "^5.5.0",
+    "react-popper": "^1.0.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.3",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0",
+    "redux-ignore": "^1.2.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "shelljs": "^0.8.2",
+    "why-did-you-update": "^0.1.1",
+    "yup": "^0.26.6"
+  },
+  "homepage": "./",
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "yarn clean && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "electron": "electron .",
+    "dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && yarn run electron\"",
+    "pack": "yarn build && electron-builder --dir",
+    "dist": "yarn build && electron-builder",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "babel-plugin-emotion": "^9.2.11",
+    "concurrently": "^4.0.1",
+    "electron": "^3.0.2",
+    "electron-builder": "^20.28.4",
+    "react-app-rewire-emotion": "^4.0.0",
+    "react-app-rewired": "^1.6.2",
+    "wait-on": "^3.0.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
