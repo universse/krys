@@ -14,7 +14,7 @@
     "@redux-offline/redux-offline": "^2.4.0",
     "chroma-js": "^1.4.0",
     "cssesc": "^2.0.0",
-    "dompurify": "^1.0.8",
+    "dompurify": "^2.0.14",
     "downshift": "^2.2.3",
     "electron-is-dev": "^1.0.1",
     "emotion": "^9.2.12",
